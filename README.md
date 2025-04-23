@@ -19,12 +19,12 @@ Tested with XIAO RA4M1
 ![](./images/20250420_ra4m1_0.jpeg)
 
 Generated wave
-![](./images/pic_199_1.png)
+![](./images/20250423_ra4m1_1.png)
 
 RA4M1_DAC12_RegisterWrite D1 output is :  
  LO=interrupt  
  HI=mainloop  
- 
+
 The duty of the D1 output indicates the load of interrupt processing. It is about 10% of the total.
-![](./images/pic_199_2.png)
+![](./images/20250423_ra4m1_2.png)
 
