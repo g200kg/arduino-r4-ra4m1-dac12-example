@@ -15,7 +15,7 @@ This code is a test to generate a sine wave by kicking a 12bit DAC with DMA. No 
 
 ---
 
-Tested with XIAO RA4M1
+Tested with XIAO RA4M1  
 ![](./images/20250420_ra4m1_0.jpeg)
 
 Generated wave
