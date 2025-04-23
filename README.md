@@ -2,13 +2,13 @@
 Arduino R4 RA4M1 Wave Generation with 12bit DAC and DMA
 
 ## RA4M1_DAC12_RegisterWrite
- This code is a test to generate a sine wave by directly manipulating the registers of a 12-bit DAC. It is faster than analogWrite() in the standard library because it manipulates the register directly.
+ This is a test code for sine wave generation via direct access to the 12-bit DAC registers. It is faster than analogWrite() in the standard library.
 
 > Sampling rate : 44100Hz.  
 > Sine wave frequency : 440Hz.
 
 ## RA4M1_DAC12_DMA
-This code is a test to generate a sine wave by kicking a 12bit DAC with DMA. No interrupt processing is required, so the CPU load is reduced.
+This is a test code for sine wave generation by kicking a 12-bit DAC with DMA. No interrupt processing is required, reduced CPU load.
 
 > Sampling rate : 44100Hz  
 > Sine wave frequency : 440Hz
