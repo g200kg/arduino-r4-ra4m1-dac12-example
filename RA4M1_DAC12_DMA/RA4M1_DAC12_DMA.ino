@@ -21,7 +21,7 @@ static FspTimer fsp_timer;
 class DACOut {
 public:
   constexpr static int buffSize = 256;
-  static int16_t buff[buffSize] ;
+  static uint16_t buff[];
   static int buffWIndex;
   // timer
   constexpr static uint8_t timerType = AGT_TIMER;
@@ -92,7 +92,7 @@ public:
     return buffSize - sz - 1;
   }
 };
-int16_t DACOut::buff[DACOut::buffSize] __attribute__((aligned(512)));
+uint16_t DACOut::buff[DACOut::buffSize] __attribute__((aligned(512)));
 int DACOut::buffWIndex = 0;
 
 class Osc {

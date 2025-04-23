@@ -22,7 +22,7 @@ static FspTimer fsp_timer;
 class DACOut {
 public:
   constexpr static int buffSize = 256;
-  static int16_t* buff;
+  static uint16_t* buff;
   static int buffRIndex;
   static int buffWIndex;
   // register
@@ -86,7 +86,7 @@ public:
     digitalWrite(D1, HIGH);
   }
 };
-int16_t* DACOut::buff = new int16_t[DACOut::buffSize];
+uint16_t* DACOut::buff = new uint16_t[DACOut::buffSize];
 int DACOut::buffRIndex = 0;
 int DACOut::buffWIndex = 0;
 
